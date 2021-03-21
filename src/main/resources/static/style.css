@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4em;
+}
+
+.projectTitle {
+    font-weight: 600;
+    font-size: 3em;
+    background: -webkit-linear-gradient(#901B7C, #E27712);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projectDescription {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.dataLink {
+    text-decoration: none;
+    font-weight: 600;
+    color: #901B7C;
+}
+
+.casesContainer {
+    background: linear-gradient(#901B7C, #E27712);
+    padding: 2em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newCases {
+    font-size: 1.2em;
+}
+
+.totalNewCasesNumber {
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-left: .25em;
+}
+
+.totalCasesDescription {
+    font-size: 1.2em;
+}
+
+th {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 1em 0 ;
+}
+
+td {
+    border-bottom: 1px solid #901B7C;
+    padding: .5em 0;
+}
+
+.country, .totalCases {
+    font-weight: 600;
+}
