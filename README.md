@@ -1,4 +1,3 @@
-# COVID19-Tracker
 # Coronavirus tracker application
 
 ### Application uses COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University from the https://github.com/CSSEGISandData/COVID-19
